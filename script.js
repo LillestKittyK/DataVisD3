@@ -403,3 +403,89 @@ var asianEuropeanUnisChartOption = option = {
 };
 
 asianEuropeanUnisChart.setOption(asianEuropeanUnisChartOption);
+
+// N° of top 10 spots takeover by UnitedStates over the years
+
+var topUnisChart = echarts.init(document.getElementById("top-unis"));
+
+var topUnisChartOption = {
+    title: {
+        text: 'N° of top 10 spots takeover by UnitedStates over the years',
+        textStyle: {
+            color: '#64748b', // tailwind slate-500
+            fontWeight: '600',
+            fontFamily: 'Inter'
+        }
+    },
+    color: '#334155', // tailwind slate-700
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    xAxis: {
+      type: 'category',
+      data: ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
+    },
+    yAxis: {
+      type: 'value'
+    },
+    series: [
+      {
+        name: 'Top 10 Universities',
+        data: [7,7, 7, 7, 7, 6, 7, 7, 7, 7, 8, 8],
+        type: 'line'
+      }
+    ]
+  };
+
+topUnisChart.setOption(topUnisChartOption);
+
+
+// N° of top 10 spots takeover by Asia in coming years
+
+var futuretopUnisChart = echarts.init(document.getElementById("future-top-unis"));
+
+var futuretopUnisChartOption = {
+    title: {
+        text: 'N° of top 10 spots takeover by Asian Unis over the years',
+        textStyle: {
+            color: '#64748b', // tailwind slate-500
+            fontWeight: '600',
+            fontFamily: 'Inter'
+        }
+    },
+    color: '#334155', // tailwind slate-700
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '3%',
+        containLabel: true
+    },
+    tooltip: {
+        trigger: 'axis'
+    },
+    xAxis: {
+      type: 'category',
+      data: ['20x1', '20x2', '20x3', '20x4', '20x5', '20x6', '20x7', '20x8', '20x9', '20x0', '20x1', '20x2']
+    },
+    yAxis: {
+      type: 'value'
+    },
+    series: [
+      {
+        name: 'Top 10 Universities',
+        data: [10,10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        type: 'line'
+      }
+    ]
+  };
+
+futuretopUnisChart.setOption(topUnisChartOption);
+
+
+
