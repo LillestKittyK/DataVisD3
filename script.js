@@ -485,7 +485,7 @@ var futuretopUnisChartOption = {
     ]
   };
 
-futuretopUnisChart.setOption(topUnisChartOption);
+futuretopUnisChart.setOption(futuretopUnisChartOption);
 
 
 
