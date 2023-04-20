@@ -6,7 +6,7 @@ In this story we will have having
 - **Chapter2**: The Rise of Asian Unis
 - **Comparing facts**: Asian Unis x European Unis
 - **Future Aim**: Conquering the top 10
-- **Conclusion**: Dream
+- **Conclusion**: The future?
 
 Everywhere in our story Unis refers to **Universities**.
 
